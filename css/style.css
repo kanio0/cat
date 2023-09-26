@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Martian Mono', monospace;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 27px;
+}
+
+h2{
+    font-family: 'Martian Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    color: black;
+    font-family: 'Martian Mono', monospace;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.myclass {
+    color: plum;
+    font-size: 36px;
+}
+
+.mclass {
+    color: aqua;
+    font-size: 24px;
+}
+
+.section-header {
+    background-color: #ac9362;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.menu-items {
+    color: white;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+li:hover {
+    color: gold;
+}
+
+.banner {
+    height: 881px;
+    background-image: url("../images/banner1.png");
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-position: fix;
+}
+
+.section-film {
+    background-color: #ac9362;
+    display: flex;
+    padding: 30px 200px;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+
+.film-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 60%;
+
+}
+
+.film-image {
+    max-width: 40%;
+}
+
+.spisok {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: list-item;
+}
+
+.info {
+    font-family: 'Martian Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    ;
+}
+
+.section-game {
+    background-color: #ac9362;
+    display: flex;
+    padding: 30px 200px;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+
+.game-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 60%;
+
+}
+
+.game-image {
+    max-width: 40%;
+}
+
+.spisok {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: list-item;
+
+}
+
+.info {
+    font-family: 'Martian Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    ;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.section-life {
+    background-color: #ac9362;
+    display: flex;
+    padding: 30px 200px;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+
+.life-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 60%;
+}
+
+.life-image {
+    max-width: 40%;
+}
